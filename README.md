@@ -1,6 +1,9 @@
 # 🆉🅴🅽🅼🅰🆇🅱🆄🅸🅻🅳🅴🆁 📲
 
-> ⚠️ This project is on stand-by for the moment. Indeed, [grm34](https://github.com/grm34) as has not a computer anymore, it's impossible for him to debug/test or even to update what would certainly have needed it. Keep in mind that this was originally designed to facilitate the management/build of multiple kernels maintained by experienced developers and is not and will not be a "run it and grab a coffee" tool. Kernel compilation requires a minimum of prior knowledge and this kind of tool simply does not exist.
+> ⚠️ This project is on stand-by for the moment.
+> Indeed, [grm34](https://github.com/grm34) as has not a computer anymore, it's impossible for him to debug/test or even to update what would certainly have needed it. Keep in mind that this was originally designed to facilitate the management/build of multiple kernels maintained by experienced developers and is not and will not be a "run it and grab a coffee" tool. Kernel compilation requires a minimum of prior knowledge and this kind of tool simply does not exist.
+
+___
 
 <a href="https://app.codiga.io/public/project/23638/ZenMaxBuilder/dashboard">
   <img src="https://api.codiga.io/project/23638/score/svg" alt="Codescore">
@@ -150,7 +153,7 @@ The installer simply clones the repository in your `HOME` and creates a copy of 
 
 Install ZenMaxBuilder :
 
-    wget kernel-builder.com/zmb && bash zmb install
+    cd ~ ; wget https://github.com/grm34/ZenMaxBuilder/archive/refs/heads/zmb.zip ; unzip zmb.zip && mv ZenMaxBuilder-zmb ZenMaxBuilder ; rm zmb.zip && cd ZenMaxBuilder && bash zmb install
 
 Checking the installation :
 
@@ -232,12 +235,12 @@ In case you need others or have already compiled/downloaded some, just move them
 ## Screenshots
 
 <details>
-  <summary>Clic to expand</summary>
+  <summary>Click here to expand</summary>
 
-  ![screenshot](https://raw.githubusercontent.com/grm34/ZenMaxBuilder/zmb/docs/assets/images/screenshot.png)
-  ![help](https://raw.githubusercontent.com/grm34/ZenMaxBuilder/zmb/docs/assets/images/help.png)
-  ![devices](https://raw.githubusercontent.com/grm34/ZenMaxBuilder/zmb/docs/assets/images/devices.png)
-  ![telegram](https://raw.githubusercontent.com/grm34/ZenMaxBuilder/zmb/docs/assets/images/telegram.png)
+  ![screenshot](https://raw.githubusercontent.com/0n1cOn3/ZenMaxBuilder/zmb/docs/assets/images/screenshot.png)
+  ![help](https://raw.githubusercontent.com/0n1cOn3/ZenMaxBuilder/zmb/docs/assets/images/help.png)
+  ![devices](https://raw.githubusercontent.com/0n1cOn3/ZenMaxBuilder/zmb/docs/assets/images/devices.png)
+  ![telegram](https://raw.githubusercontent.com/0n1cOn3/ZenMaxBuilder/zmb/docs/assets/images/telegram.png)
 </details>
 
 ## More information
@@ -286,9 +289,9 @@ Found a problem? Want a new feature? Have a question? First of all see if your i
 
 If you want to contribute to ZenMaxBuilder project and make it better, your help is very welcome: [Contributing Guidelines](https://github.com/grm34/ZenMaxBuilder/blob/zmb/.github/CONTRIBUTING.md).
 
-## Help us Translate ZenMaxBuilder
+## Help us translate ZenMaxBuilder
 
-| language | flag | translator | progress |
+| Language | Flag | Translator | Progress |
 | :------- | ---: | ---------: | -------: |
 | English  |   🇬🇧 |     @grm34 |     100% |
 | Spanish  |   🇪🇸 |     @grm34 |     100% |
@@ -331,7 +334,7 @@ If you want to contribute to ZenMaxBuilder project and make it better, your help
 - ZipSigner: [@osm0sis](https://github.com/osm0sis) [@topjohnwu](https://github.com/topjohnwu)
 - Patches: [@Kali-Linux](https://gitlab.com/kalilinux) [@cyberknight777](https://github.com/cyberknight777)
 
-### Buy me a beer ?
+### Buy [grm34](https://github.com/grm34) a beer ?
 
     LTC: MHjiEKDw7SAtx6HzSeFEWTfEUiVUak2wUD
     BTC: 356URzmeVn8AF8WxMtqipP2qQ3gwZQHdRi
